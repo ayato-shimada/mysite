@@ -156,15 +156,13 @@ p {
 	margin: 0 auto;
 }
 .feature-strength {
-	display: inline-block;
 	width: 320px;
-
-}
-.feature-strength:nth-child(1) {
-	margin-right: 10px;
+	padding-bottom: 90px;
+	display: inline-block;
+	float: left;
 }
 .feature-strength:nth-child(2) {
-	margin-right: 10px;
+	margin: 0 10px;
 }
 .feature-strength-title {
 	font-size: 20px;
