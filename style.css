@@ -83,12 +83,13 @@ h2::after{
 	margin: 8px auto 0 auto;
 	background-color: #ec715f;
 }
-.portfolio-text{
+p {
 	text-align: center;
 	font-size: 16px;
 	color: #000000;
 	padding: 30px 0;
 }
+
 .portfolio-images {
 	width: 920px;
 }
@@ -147,4 +148,37 @@ h2::after{
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
+}
+
+.feature-content {
+	width: 980px;
+	padding: 90px 0px;
+	margin: 0 auto;
+}
+.feature-strength {
+	display: inline-block;
+	width: 320px;
+
+}
+.feature-strength:nth-child(1) {
+	margin-right: 10px;
+}
+.feature-strength:nth-child(2) {
+	margin-right: 10px;
+}
+.feature-strength-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	padding: 10px 0;
+}
+.feature-strength-text {
+	padding: 0;
+	text-align: left;
+}
+.social {
+	width: 100%;
+	font-size: 60px;
+  	display: inline-block;
+  	text-align: center;
 }
