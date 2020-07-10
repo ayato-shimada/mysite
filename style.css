@@ -202,16 +202,57 @@ p {
 	margin: 0 auto;
 }
 .right-content {
-	float: left;
+	float: right;
 	width: 50%;
-	margin: 0 auto;
 }
 .right-content h3 {
 	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+.right-content h3:first-child {
+	margin-top: 0;
 }
 .right-content p {
 	padding: 5px 0 20px 0;
 	font-size: 16px;
 	color: #000000;
 	text-align: left;
+}
+.contact {
+	width: 100%;
+}
+.contact-content {
+	width: 800px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.address {
+	display: inline-block;
+	padding: 5px 0 20px 0;
+	color: black;
+}
+.number {
+	display: inline-block;
+	padding-top: 5px;
+	color: black;
+}
+.left-content-box {
+	width: 130px;
+	margin: 0 auto;
+}
+h3 {
+	font-size: 20px;
+}
+.right-content-box {
+	width: 170px;
+	margin: 0 auto;
+}
+.fab {
+	font-size: 50px;
+	margin-right: 20px;
+	display: inline-block;
+	float: left;
+}
+.fab:last-child {
+	margin-right: 0;
 }
