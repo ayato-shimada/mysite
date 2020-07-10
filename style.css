@@ -182,3 +182,36 @@ p {
 	width: 100%;
 	background-color: #eceff1;
 }
+.profile-content {
+	width: 1024px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.left-content {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+.myface {
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 125px;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+.right-content {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+.right-content h3 {
+	font-size: 20px;
+}
+.right-content p {
+	padding: 5px 0 20px 0;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
