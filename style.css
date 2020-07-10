@@ -149,7 +149,6 @@ p {
 	background-position: center;
 	display: inline-block;
 }
-
 .feature-content {
 	width: 980px;
 	padding: 90px 0px;
@@ -157,7 +156,6 @@ p {
 }
 .feature-strength {
 	width: 320px;
-	padding-bottom: 90px;
 	display: inline-block;
 	float: left;
 }
@@ -179,4 +177,8 @@ p {
 	font-size: 60px;
   	display: inline-block;
   	text-align: center;
+}
+.profile {
+	width: 100%;
+	background-color: #eceff1;
 }
