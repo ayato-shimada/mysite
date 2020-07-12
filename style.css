@@ -274,3 +274,145 @@ footer {
 	text-align: center;
 	padding: 0;
 }
+@media screen and (max-width: 767px) {
+	.header-content {
+		width: 90%;
+		height: 50px;
+	}
+	.nav-logo {
+		height: 50px;
+	}
+	.nav-left {
+		display: none;
+	}
+	.menu {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #fafafa;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.menu-bar {
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #fafafa;
+	}
+	.menu-bar:first-child {
+		margin-top: 10px;
+	}
+	.main-visual {
+		background-image: url(img/code.png)
+	}
+	.main-visual-text {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.main-visual-text h1 {
+	font-size: 40px;
+	}
+	.main-visual-text p {
+	font-size: 18px;
+	}
+	.portfolio {
+		padding: 0 5%;
+	}
+	.portfolio-content {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.portfolio-images {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.portfolio-image-1 {
+		display: none;
+	}
+	.portfolio-image-2 {
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
+		display: block;
+	}
+	.portfolio-image-3 {
+		display: none;
+	}
+	.portfolio-image-4 {
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 10px auto;
+		display: block;
+	}
+	.portfolio-image-5 {
+		display: none;
+	}
+	.portfolio-image-6 {
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
+		display: block;
+	}
+	.feature {
+		padding: 0 5%;
+	}
+	.feature-content {
+		width: 90%;
+	}
+	.feature-strength {
+	width: 320px;
+	display: block;
+	float: none;
+	margin: 0 auto;
+	}
+	.feature-strength:nth-child(2) {
+	margin: 10px auto;
+	}
+	.profile{
+		padding: 0 5%;
+	}
+	.profile-content {
+		width: 90%;
+	}
+	.left-content {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.right-content {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.right-content p {
+		text-align: center;
+	}
+	.myname h3 {
+		padding-top: 20px;
+	}
+	.br {
+		display: none;
+	}
+	.contact {
+		padding: 0 5%;
+	}
+	.contact-content {
+		width: 90%;
+	}
+	h3  {
+		text-align: center;
+	}
+	.address {
+		padding-left: 11px;
+
+	}
+	.number {
+		padding-bottom: 20px;
+		padding-left: 3px;
+	}
+}
